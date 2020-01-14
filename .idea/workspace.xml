@@ -1,18 +1,115 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e19747a5-c9f2-4044-8789-1081033784ce" name="Default Changelist" comment="" />
+    <list default="true" id="e19747a5-c9f2-4044-8789-1081033784ce" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/Clink.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/AbsByteArrayReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/BytesReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/BytesSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/FileReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/FileSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/StreamDirectReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/StreamDirectSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/StringReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/box/StringSendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/Connector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/Frame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/IoArgs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/IoContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/IoProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/Packet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/ReceiveDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/ReceivePacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/Receiver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/ScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/Scheduler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/SendDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/SendPacket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/ds/BytePriorityNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/core/schedule/IdleTimeoutScheduleJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/AbsReceiveFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/AbsSendFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/AbsSendPacketFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/CancelReceiveFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/CancelSendFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/HeartbeatReceiveFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/HeartbeatSendFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/ReceiveEntityFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/ReceiveFrameFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/ReceiveHeaderFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/SendDirectEntityFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/SendEntityFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/frames/SendHeaderFrame.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/IoSelectorProvider.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/NameableThreadFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/SchedulerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/SocketChannelAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/async/AsyncPacketReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/async/AsyncPacketWriter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/async/AsyncReceiveDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/async/AsyncSendDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/impl/bridge/BridgeSocketDispatcher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/utils/ByteUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/utils/CloseUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/utils/plugin/BufferOverflowException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/clink/utils/plugin/CircularByteBuffer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/Foo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/FooGui.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/constants/TCPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/constants/UDPConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/handle/ConnectorCloseChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/handle/ConnectorHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/handle/ConnectorHandlerChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/handle/ConnectorStringPacketChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/handle/DefaultNonConnectorStringPacketChain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/foo/handle/DefaultPrintConnectorCloseChain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="ExternalProjectsData">
     <projectState path="$PROJECT_DIR$">
       <ProjectState />
     </projectState>
   </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1WL0lT1tdE7vaqP2awqshW8vyE3" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -20,12 +117,18 @@
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="C:/Program Files/Java/jdk1.8.0_191/bin/jvisualvm.exe" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/java" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="File.Encoding" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Users\KevinLeak\Documents\GitHub\CattleIMKit\src\main\java" />
+    </key>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -49,7 +152,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1578913718163</updated>
-      <workItem from="1578913731055" duration="23000" />
+      <workItem from="1578913731055" duration="418000" />
+      <workItem from="1578990428161" duration="797000" />
     </task>
     <servers />
   </component>
